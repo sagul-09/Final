@@ -11,15 +11,26 @@
           "Good day"
         ],
         "responses": [
-          "Hey I'm carbon, how can I help you?",
-          "Hello, thanks for visiting",
-          "Hi there, what can I do for you?",
-          "Hi there, how can I help?"
+          "Hey, I'm Carbon, your Ministry of Coal assistant. How can I assist you today?",
+          "Hello! Welcome to the Ministry of Coal chatbot. I'm Carbon. How can I help you?",
+          "Hi there, I'm Carbon. How can I assist you with coal-related queries?",
+          "Hello, thanks for reaching out. I'm Carbon. How can I be of service today?"
         ]
+      },
+
+      {
+        "tag": "information request",
+        "patterns":["Tell me about coal production.","What are the coal policies in India?","Explain the process of coal mining.","Can you provide coal industry statistics?"],
+        "responses":["Sure, I can provide information on various aspects of coal production and policies in India. What specific information are you looking for?","Of course, I can assist you with information related to coal mining and policies. Please specify your query.","Certainly, I can explain the coal mining process or share statistics. What would you like to know more about?","Absolutely, I can provide coal industry statistics and related details. What specific data are you interested in?"]
+      },
+      {
+        "tag": "procedure guidance",
+        "patterns":["How do I apply for a coal mining license?","What are the steps to obtain a coal transportation permit?","license apply"],
+        "responses":["I can guide you through the process of applying for a coal mining license or obtaining a transportation permit. Which one would you like to learn about?"]
       },
       {
         "tag": "function",
-        "patterns":["purpose","function","what can you do","what are you for","what is your purpose"],
+        "patterns":["purpose","function","what can you do","what are you for","what is your purpose","in what ways you can help me"],
         "responses":["I am a chatbot created by the Indian Ministry of Coal to assist you with information related to coal production, policies, and initiatives"]
       },
 
@@ -29,8 +40,7 @@
         "responses": ["Happy to help!", "Any time!", "My pleasure"]
       },
      
-      
-      
+         
       {
         "tag": "funny",
         "patterns": [
