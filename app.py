@@ -10,8 +10,7 @@ def index_get():
 
 @app.post("/predict")
 def predict():
-    text = request.get_json().get("message")
-    #todo- if text is valid 
+    text = request.get_json().get("message")#text validity
     response = get_response(text)
     message = {"answer": response}
     return jsonify(message)
