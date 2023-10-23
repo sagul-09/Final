@@ -39,22 +39,335 @@
         "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
         "responses": ["Happy to help!", "Any time!", "My pleasure"]
       },
-     
          
       {
-        "tag": "funny",
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+      },
+      {
+        "tag": "noanswer",
+        "patterns": ["", "Nothing", "I don't know", "I don't understand", "Not sure"],
+        "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+      },
+      
+      {
+        "tag": "coal_states",
         "patterns": [
-          "Tell me a joke!",
-          "Tell me something funny!",
-          "Do you know a joke?",
-          "tell me one joker please",
-          "i want to hear one joke"
-
+          "Which states in India produce the most coal?",
+          "Top coal-producing states in India",
+          "Can you tell me the states in India that produce the most coal?",
+          "What are the major coal-producing states in India?",
+          "India's top coal-producing regions, please?",
+          "List the states in India known for coal production.",
+          "Name the states that lead in coal production in India.",
+          "Name the states with high coal production in India.",
+        "Tell me about the leading coal-producing states in India.",
+        "List the Indian states known for coal mining.",
+        "Which regions in India are top coal producers?",
+        "how many states procudes coal"
+      
         ],
-        "responses": [
-          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-          "What did the buffalo say when his son left for college? Bison."
-        ]
-      }
+        "responses": ["The major coal-producing states in India include Jharkhand, Chhattisgarh, Odisha, West Bengal, and Madhya Pradesh."]
+      },
+      {
+        "tag": "coal_production",
+        "patterns": [
+          "How much coal does India produce annually?",
+          "What is the annual coal production in India?",
+          "India's yearly coal production volume, please.",
+          "Can you provide data on India's coal production each year?",
+          "Tell me about the annual coal output in India.",
+          "What's the total coal production in India on a yearly basis?",
+          "How many metric tons of coal does India produce in a year?",
+          "What's the yearly coal production figure for India as of now?",
+          "What's the current annual coal production rate in India?",
+          "Provide data on India's annual coal production.",
+          "Tell me about the coal production figures for India each year.",
+          "What's the current annual coal production rate in India?"
+        ],
+        "responses": ["As of my last update in 2021, India produces over 700 million metric tons of coal annually, but production figures can vary from year to year."]
+      },
+      
+
+        {
+          "tag": "coal_mines",
+          "patterns": [ "How many coal mines are there in India?",
+          "Total number of coal mines in India",
+          "Can you tell me the total count of coal mines in India?",
+          "What's the current number of coal mines in India?",
+          "Provide information on the quantity of coal mines in India.",
+          "I'd like to know the total coal mining sites in India."
+        ],
+          "responses": ["India has numerous coal mines, but the exact number can change over time. You can check official government sources for the most current number."]
+        },
+
+        {
+      "tag": "coal_history",
+      "patterns": [
+        "Tell me about the history of coal mining in India.",
+        "When did coal mining start in India?",
+        "Give me a brief overview of the history of coal mining in India.",
+        "What is the historical background of coal mining in India?",
+        "How has coal mining evolved in India over time?",
+        "Share insights into the historical development of coal mining in India."
+      ],
+      "responses": ["Coal mining in India dates back to the 18th century during British colonial rule and played a significant role in the country's industrial development."]
+    },
+    {
+      "tag": "coal_environment",
+      "patterns": [
+        "What are the key environmental issues associated with coal mining in India?",
+        "Explain the environmental challenges posed by coal mining in India.",
+        "How does coal mining impact the environment in India, specifically?",
+        "Tell me about the ecological consequences of coal mining in India.",
+        "Are there any environmental regulations in place for coal mining in India?",
+        "What measures have been taken to address coal-related environmental problems in India?"
+      ],
+      "responses": ["Coal mining in India has been associated with environmental issues such as air and water pollution, deforestation, and habitat destruction. The government has introduced regulations to address these concerns."]
+    },
+    {
+      "tag": "coal_safety",
+      "patterns": [
+        "What safety standards and regulations govern coal mining in India?",
+        "How are the well-being and safety of coal miners ensured in India?",
+        "I'm interested in the safety practices employed in Indian coal mines.",
+        "Explain the measures taken to protect coal miners in India.",
+        "Are there any technological advancements enhancing safety in Indian coal mines?",
+        "Tell me about the safety protocols for workers in Indian coal mines."
+      ],
+      "responses": ["Safety measures in Indian coal mines include regulations, training, monitoring, and the use of advanced technology to ensure the well-being of coal miners."]
+    },
+    {
+      "tag": "coal_reserves",
+      "patterns": [
+        "What is the estimated volume of coal reserves remaining in India?",
+        "I'd like to know about the current status of coal reserves in India.",
+        "How long can India rely on its existing coal reserves for?",
+        "What factors influence changes in India's coal reserve estimates?",
+        "Can you provide insights into the future of coal reserves in India?",
+        "Tell me about the potential fluctuations in India's coal reserves."
+      ],
+      "responses": ["India has significant coal reserves, with various estimates suggesting several decades of coal supply. However, this can change as new reserves are discovered or depleted."]
+    },
+    {
+      "tag": "coal_energy_contribution",
+      "patterns": [
+        "How critical is coal in meeting India's energy needs?",
+        "What percentage of India's electricity is generated from coal?",
+        "I'd like to understand the role of coal in India's energy sector.",
+        "Explain how coal continues to be a prominent energy source in India.",
+        "Tell me about the contribution of coal to India's energy security.",
+        "Are there any shifts in India's reliance on coal for energy production?"
+      ],
+      "responses": ["Coal has historically been a major source of energy in India, contributing to a significant portion of the country's electricity generation. It continues to play a vital role in the energy mix."]
+    },
+
+    
+        {
+          "tag": "coal_challenges",
+          "patterns": ["What are the challenges facing the coal mining industry in India?", "Obstacles in Indian coal mining"],
+          "responses": ["Challenges include environmental concerns, land acquisition issues, the need for modernization, and the transition to cleaner energy sources."]
+        },
+        {
+          "tag": "coal_regulations",
+          "patterns": ["What are the government policies and regulations for coal mining in India?", "Laws governing coal mining in India"],
+          "responses": ["The Indian government has introduced policies and regulations to govern coal mining, addressing issues like environmental compliance and safety standards."]
+        },
+        {
+          "tag": "coal_technology",
+          "patterns": ["What is the latest technology being used in coal mining in India?", "Modern coal mining technology in India"],
+          "responses": ["Modern coal mining in India involves technologies like longwall mining, continuous miners, and advanced machinery for increased efficiency and safety."]
+        },
+        {
+          "tag": "coal_extraction",
+          "patterns": ["How is coal extracted and processed in Indian coal mines?", "Methods of coal extraction and processing in India"],
+          "responses": ["Coal extraction methods include opencast and underground mining, followed by processing, which can involve crushing, washing, and screening."]
+        },
+        {
+          "tag": "coal_future",
+          "patterns": ["What is the future of coal mining in India considering environmental concerns?", "The role of coal in India's future energy mix"],
+          "responses": ["The future of coal mining in India may involve a shift towards cleaner and more sustainable practices, with an increased focus on renewable energy sources and reduced emissions."]
+        },
+        {
+          "tag": "alternative_energy_sources",
+          "patterns": ["Are there alternatives to coal in India's energy mix?", "What are the alternative energy sources in India?"],
+          "responses": ["Yes, India is actively exploring alternatives to coal, including solar, wind, hydropower, and natural gas, to diversify its energy mix and reduce environmental impact."]
+        },
+        {
+          "tag": "coal_employment",
+          "patterns": ["How many people are employed in the Indian coal mining industry?", "Coal mining job statistics in India"],
+          "responses": ["The Indian coal mining industry provides employment to a substantial number of people, contributing to both direct and indirect jobs."]
+        },
+        {
+          "tag": "coal_exports",
+          "patterns": ["Does India export coal to other countries?", "Indian coal export data"],
+          "responses": ["Yes, India exports coal to various countries, with some of its coal production being sold on the international market."]
+        },
+        {
+          "tag": "coal_imports",
+          "patterns": ["Does India import coal from other countries?", "Indian coal import data"],
+          "responses": ["Yes, India also imports coal to meet its energy demands and address specific coal quality requirements."]
+        },
+        {
+          "tag": "clean_energy",
+          "patterns": ["What initiatives are in place to promote clean energy in India?", "Renewable energy efforts in India"],
+          "responses": ["India has implemented various initiatives to promote clean energy, including incentives for solar, wind, and hydroelectric power projects."]
+        },
+        {
+          "tag": "coal_privatization",
+          "patterns": ["Is the coal mining sector in India undergoing privatization?", "Government's stance on coal sector privatization"],
+          "responses": ["Yes, the Indian government has introduced policies to allow private sector participation in coal mining, aiming to increase efficiency and investments."]
+        },
+        {
+          "tag": "coal_production_trends",
+          "patterns": ["What are the recent trends in coal production in India?", "Changes in coal production over the last few years"],
+          "responses": ["Coal production in India has seen fluctuations, influenced by market demand, environmental concerns, and government policies. The sector is adapting to these changes."]
+        },
+        {
+          "tag": "coal_sustainability",
+          "patterns": ["How is India addressing sustainability in coal mining?", "Efforts towards sustainable coal mining in India"],
+          "responses": ["India is working on sustainable mining practices, including reclamation and land restoration, to mitigate the environmental impact of coal mining."]
+        },
+        {
+          "tag": "coal_pollution",
+          "patterns": ["What measures are in place to reduce coal-related pollution in India?", "Efforts to mitigate coal pollution in India"],
+          "responses": ["India has introduced regulations and technologies to reduce pollution from coal mining and combustion, including the use of cleaner coal technologies."]
+        },
+        {
+          "tag": "coal_captive_mining",
+          "patterns": ["What is captive coal mining in India?", "Captive coal mining rules and regulations"],
+          "responses": ["Captive coal mining in India refers to coal mining for specific end-use purposes. It is governed by specific rules and regulations to ensure a secure supply for designated industries."]
+        },
+        {
+          "tag": "coal_investment",
+          "patterns": ["Are there investment opportunities in the Indian coal mining sector?", "Investment prospects in Indian coal mining"],
+          "responses": ["Investment opportunities exist in various aspects of the Indian coal mining sector, including technology, infrastructure, and sustainable practices."]
+        },
+        {
+          "tag": "coal_community_impact",
+          "patterns": ["How does coal mining impact local communities in India?", "Social and economic effects of coal mining on Indian communities"],
+          "responses": ["Coal mining can have both positive and negative impacts on local communities, affecting their economy and infrastructure. It's essential to manage these effects responsibly."]
+        },
+        {
+          "tag": "coal_research",
+          "patterns": ["What research initiatives are ongoing in the field of coal mining in India?", "Coal mining research projects in India"],
+          "responses": ["India is actively involved in coal mining research, focusing on clean coal technologies, safety improvements, and sustainable practices."]
+        },
+        {
+          "tag": "coal_rehabilitation",
+          "patterns": ["How are mined areas rehabilitated after coal extraction in India?", "Land reclamation after coal mining in India"],
+          "responses": ["Rehabilitation of mined areas involves land reclamation, reforestation, and environmental restoration to minimize the long-term impacts of coal mining."]
+        },
+        {
+          "tag": "coal_mineral_resources",
+          "patterns": ["What other mineral resources are found in coal-rich regions of India?", "Minerals co-occurring with coal in India"],
+          "responses": ["Coal-rich regions in India often contain other valuable minerals, including iron ore, bauxite, and limestone, contributing to the region's economic diversity."]
+        },
+        {
+          "tag": "coal_production_methods",
+          "patterns": [
+            "What are the primary coal extraction methods used in India?",
+            "Can you explain the differences between opencast and underground coal mining in India?",
+            "How do coal washing techniques contribute to cleaner coal production in India?"
+          ],
+          "responses": ["Coal in India is extracted using various methods, including opencast mining, underground mining, and coal washing, depending on geological and environmental factors."]
+        },
+        {
+          "tag": "coal_importance_to_economy",
+          "patterns": [
+            "What percentage of India's GDP is attributed to the coal industry?",
+            "How does the coal sector in India support job creation and economic growth?",
+            "What are the economic dependencies on coal mining in different regions of India?",
+            "what are the importance of coal to the Indian economy",
+            "why is coal important to the Indian economy",
+            "what is the contribution of coal to the Indian economy",
+            "what is the importance of coal to the Indian economy"
+            
+          ],
+          "responses": ["The coal industry is vital to the Indian economy, contributing to GDP and employment. It also supports various associated industries."]
+        },
+        {
+          "tag": "coal_export_destinations",
+          "patterns": [
+            "Which countries are the emerging markets for Indian coal exports?",
+            "How has the export volume of Indian coal changed over the last few years?",
+            "What factors influence the destination choices for Indian coal exports?",
+            "what are the emerging markets for Indian coal exports",
+            "what are the export destinations for Indian coal",
+            "what are the export destinations for Indian coal exports",
+            "for how many contires india exports coal",
+            "how many countires does india exportd coal"
+
+          ],
+          "responses": ["India exports coal to countries such as China, Bangladesh, Nepal, and Vietnam, among others."]
+        },
+        {
+          "tag": "coal_renewable_integration",
+          "patterns": [
+            "Can you provide examples of successful coal-renewable energy integration projects in India?",
+            "How does India manage the intermittency of renewable energy sources in coal-based power generation?",
+            "What policies promote the coexistence of coal and renewables in India's energy mix?"
+          ],
+          "responses": ["India is promoting hybrid power projects that combine coal and renewable energy sources to reduce emissions and enhance sustainability."]
+        },
+        {
+          "tag": "coal_innovation",
+          "patterns": [
+            "What recent technological advancements have been made in the Indian coal mining sector?",
+            "How do clean coal technologies work to reduce environmental impact in India?",
+            "Are there any noteworthy examples of environmental innovation in Indian coal mining?"
+          ],
+          "responses": ["Innovations like clean coal technologies, improved dust control, and real-time monitoring systems are being used to minimize environmental impact."]
+        },
+        {
+          "tag": "coal_investment_opportunities",
+          "patterns": [
+            "What are the key investment sectors within the Indian coal mining industry?",
+            "How does India attract foreign investment in its coal sector?",
+            "Can you explain the potential returns and risks associated with coal-related investments in India?",
+            "Are there investment opportunities in the Indian coal mining sector?"
+          ],
+          "responses": ["Investors can explore opportunities in clean coal technologies, exploration, logistics, and sustainable mining practices in India."]
+        },
+        {
+          "tag": "coal_royalty_and_taxation",
+          "patterns": [
+            "What are the royalty rates for different types of coal in India?",
+            "How do coal taxes contribute to government revenues in India?",
+            "Are there tax incentives for responsible coal mining practices in India?"
+          ],
+          "responses": ["Royalty rates and taxes in the Indian coal mining sector are defined by government regulations, varying based on coal type and region."]
+        },
+        {
+          "tag": "coal_and_indigenous_communities",
+          "patterns": [
+            "How does the Indian government address the rights and concerns of indigenous communities affected by coal mining?",
+            "Are there examples of successful partnerships between coal companies and indigenous communities in India?",
+            "What measures are in place to protect the cultural heritage of indigenous groups near coal mines in India?"
+          ],
+          "responses": ["Coal mining can affect indigenous communities in terms of land rights, displacement, and socio-economic change, necessitating responsible policies."]
+        },
+        {
+          "tag": "coal_and_climate_change",
+          "patterns": [
+            "What steps is India taking to meet its climate change commitments while relying on coal for energy?",
+            "Can you explain the carbon reduction initiatives associated with coal mining in India?",
+            "How do international agreements influence India's approach to coal and climate change?"
+          ],
+          "responses": ["India is working to reduce carbon emissions from coal through cleaner technologies and sustainable practices in line with global climate goals."]
+        },
+        {
+          "tag": "coal_adaptive_mining",
+          "patterns": [
+            "What adaptive mining practices are used to address ecological challenges in Indian coal mines?",
+            "Can you provide examples of instances where adaptive mining improved environmental outcomes?",
+            "How does India balance coal production with environmental adaptability?",
+            "what are the adaptive mining practices used to address ecological challenges in Indian coal mines"
+          ],
+            "responses": ["Adaptive mining techniques are increasingly used to address environmental concerns, allowing adjustments in mining processes as needed. These practices include: - Revegetation and Reforestation: Restoring vegetation and forests in mined areas. - Land Reclamation: Rehabilitating land to its natural state. - Water Management: Controlling water pollution and runoff. - Biodiversity Conservation: Protecting local flora and fauna. - Waste Management: Proper disposal and recycling of mining waste. - Dust and Air Pollution Control: Measures to reduce air pollution. - Monitoring and Data Collection: Tracking environmental parameters. - Ecological Impact Assessments: Studying and mitigating environmental impacts. - Community Engagement: Involving and addressing community concerns. - Research and Development: Advancements in clean coal technologies and eco-friendly equipment. These practices aim to minimize the environmental impact of coal mining and promote ecological sustainability."]
+          }
+          
+        
     ]
   }
