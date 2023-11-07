@@ -1,12 +1,7 @@
 import random
 import json
-
-import requests
-import os
-import PyPDF2
-
 import torch
-
+import google.generativeai as palm
 from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
 
@@ -29,28 +24,23 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
-bot_name = "Carbon"
+# Configure the palm API
+palm.configure(api_key='AIzaSyD7aMS1rqwIFPp1iG5D3ijxfimujoPv2nI')
 
-# def get_response(msg):
-#     sentence = tokenize(msg)
-#     X = bag_of_words(sentence, all_words)
-#     X = X.reshape(1, X.shape[0])
-#     X = torch.from_numpy(X).to(device)
+# Get the palm model
+palm_models = [m for m in palm.list_models() if 'generateText' in m.supported_generation_methods]
+palm_model = palm_models[0].name
 
-#     output = model(X)
-#     _, predicted = torch.max(output, dim=1)
+def get_palm_response(prompt):
+    prompt += " in India"
+    completion = palm.generate_text(
+        model=palm_model,
+        prompt=prompt,
+        temperature=0,
+        max_output_tokens=1000,
+    )
+    return completion.result
 
-#     tag = tags[predicted.item()]
-
-#     probs = torch.softmax(output, dim=1)
-#     prob = probs[0][predicted.item()]
-#     if prob.item() > 0.75:
-#         for intent in intents['intents']:
-#             if tag == intent["tag"]:
-#                 return random.choice(intent['responses'])
-    
-#     return "I do not understand..."
-#######################
 def get_response(msg):
     sentence = tokenize(msg)
     X = bag_of_words(sentence, all_words)
@@ -64,21 +54,37 @@ def get_response(msg):
 
     probs = torch.softmax(output, dim=1)
     prob = probs[0][predicted.item()]
-    if prob.item() > 0.85:
+    if prob.item() > 0.75:
         for intent in intents['intents']:
             if tag == intent["tag"]:
                 return random.choice(intent['responses'])
     
-    return "I do not understand..."
+    # If no matching intent was found, use palm to generate a response
+    return get_palm_response(msg)
 
+def save_conversation(user_message, bot_response):
+    with open('intents.json', 'r+') as file:
+        data = json.load(file)
+        existing_conversations = [intent for intent in data['intents'] if intent['tag'] == 'conversation']
+        if not any(conv for conv in existing_conversations if conv['patterns'][0] == user_message and conv['responses'][0] == bot_response):
+            data['intents'].append({
+                "tag": "conversation",
+                "patterns": [user_message],
+                "responses": [bot_response]
+            })
+        file.seek(0)
+        json.dump(data, file, indent=4)
+        file.truncate()
 
 if __name__ == "__main__":
     print("Let's chat! (type 'quit' to exit)")
     while True:
-        # sentence = "do you use credit cards?"
         sentence = input("You: ")
         if sentence == "quit":
             break
 
         resp = get_response(sentence)
-        print(resp)
+        print("Carbon:",resp)
+        
+        # Save the conversation
+        save_conversation(sentence, resp)
