@@ -244,6 +244,33 @@
             "responses": [
                 "Neyveli"
             ]
+        },
+        {
+            "tag": "conversation",
+            "patterns": [
+                "how much coal we have"
+            ],
+            "responses": [
+                "India has the fourth-largest coal reserves in the world, with 293 billion tonnes of proven reserves. This is enough to meet the country's energy needs for the next 100 years. However, India's coal reserves are not evenly distributed, with most of them located in the eastern and central parts of the country. This has led to a number of challenges, including the high cost of transporting coal to power plants in other parts of the country. In addition, India's coal reserves are of low quality, with high ash content and low calorific value. This means that more coal is needed to generate the same amount of electricity as coal from other countries. India is also facing a number of environmental challenges related to its coal production and use. These include air pollution, water pollution, and land degradation."
+            ]
+        },
+        {
+            "tag": "conversation",
+            "patterns": [
+                "how much  coal we have"
+            ],
+            "responses": [
+                "India has the fourth-largest coal reserves in the world, with 297 billion tonnes of proven reserves. This is enough to meet the country's energy needs for the next 100 years. The majority of India's coal reserves are located in the eastern states of Jharkhand, Chhattisgarh, Odisha, and West Bengal."
+            ]
+        },
+        {
+            "tag": "conversation",
+            "patterns": [
+                "hi"
+            ],
+            "responses": [
+                "\u0928\u092e\u0938\u094d\u0924\u0947 \u092d\u093e\u0930\u0924"
+            ]
         }
     ]
 }
