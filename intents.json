@@ -271,6 +271,15 @@
             "responses": [
                 "\u0928\u092e\u0938\u094d\u0924\u0947 \u092d\u093e\u0930\u0924"
             ]
+        },
+        {
+            "tag": "conversation",
+            "patterns": [
+                "what is the overall coal production in october 2023 "
+            ],
+            "responses": [
+                "66.5 million tonnes"
+            ]
         }
     ]
 }
