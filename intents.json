@@ -280,6 +280,51 @@
             "responses": [
                 "66.5 million tonnes"
             ]
+        },
+        {
+            "tag": "conversation",
+            "patterns": [
+                "hey"
+            ],
+            "responses": [
+                " India is a country in South Asia."
+            ]
+        },
+        {
+            "tag": "conversation",
+            "patterns": [
+                "whats the cost of coal "
+            ],
+            "responses": [
+                "1,400 to 1,600 INR per tonne"
+            ]
+        },
+        {
+            "tag": "conversation",
+            "patterns": [
+                "what is coal mining"
+            ],
+            "responses": [
+                "Coal mining in India is a major industry, with India being the world's third-largest producer of coal. The Indian coal industry is responsible for providing a significant proportion of the country's energy needs, and is also a major source of employment.\n\nThe history of coal mining in India dates back to the 18th century, when the first coal mines were established in the Raniganj coalfield in West Bengal. Coal mining in India expanded rapidly during the 20th century, and by the 1970s, India was the world's second-largest producer of coal.\n\nHowever, the Indian coal industry has faced a number of challenges in recent years, including a decline in production, a lack of investment, and environmental concerns. In 2015, the Indian government announced a plan to invest \\$50 billion in the coal industry over the next five years, in an effort to boost production and address environmental concerns.\n\nDespite the challenges, the Indian coal industry remains a major player in the global coal market. India is expected to remain a major producer of coal for many years to come, and the industry is likely to continue to play a significant role in the country's economy.\n\n## Key facts about coal mining in India\n\n* India is the world's third-largest producer of coal, after China and the United States.\n* The Indian coal industry is responsible for providing a significant proportion of the country's energy needs.\n* Coal mining in India has a long history, dating back to the 18th century.\n* The Indian coal industry has faced a number of challenges in recent years, including a decline in production, a lack of investment, and environmental concerns.\n* The Indian government has announced a plan to invest \\$50 billion in the coal industry over the next five years.\n* India is expected to remain a major producer of coal for many years to come.\n\n## References\n\n* [Coal India Limited](https://www.coalindia.in/)\n* [Ministry of Coal](https://coal.gov.in/)\n* [World Coal Association](https://www.worldcoal.org/)"
+            ]
+        },
+        {
+            "tag": "conversation",
+            "patterns": [
+                "major problems of coal mining"
+            ],
+            "responses": [
+                "* **Subsidence:** Subsidence is the sinking of the ground surface due to the extraction of coal from underground. This can cause damage to buildings and infrastructure, and can also lead to flooding.\n* **Water pollution:** Coal mining can pollute water sources through the leaching of chemicals from the coal seams into groundwater. This can contaminate drinking water and make it unsafe for human consumption.\n* **Air pollution:** Coal mining operations can release harmful pollutants into the air, including particulate matter, sulfur dioxide, and nitrogen oxides. These pollutants can cause respiratory problems and other health issues.\n* **Land degradation:** Coal mining can cause land degradation through the removal of vegetation and the creation of open pits. This can lead to soil erosion and the loss of biodiversity.\n* **Social impacts:** Coal mining can have a negative impact on the social fabric of communities, including through the displacement of people from their homes, the disruption of livelihoods, and the increased risk of accidents.\n\nThese are just some of the major problems associated with coal mining in India. It is important to be aware of these issues when considering the future of coal mining in the country."
+            ]
+        },
+        {
+            "tag": "conversation",
+            "patterns": [
+                "who is the coal minister"
+            ],
+            "responses": [
+                "Pralhad Joshi"
+            ]
         }
     ]
 }
