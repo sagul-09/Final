@@ -1,7 +1,7 @@
 {
     "intents": [
         {
-            "tag": "conversation",
+            "tag": "conversation_1",
             "patterns": [
                 "hi",
                 "hey",
@@ -12,7 +12,7 @@
             ]
         },
         {
-            "tag": "conversation",
+            "tag": "conversation_2",
             "patterns": [
                 "what is coal mining"
             ],
@@ -21,7 +21,7 @@
             ]
         },
         {
-            "tag": "conversation",
+            "tag": "conversation_3",
             "patterns": [
                 "who is the PM of india"
             ],
@@ -30,7 +30,7 @@
             ]
         },
         {
-            "tag": "conversation",
+            "tag": "conversation_4",
             "patterns": [
                 "who is the coal minister of india"
             ],
@@ -39,7 +39,7 @@
             ]
         },
         {
-            "tag": "conversation",
+            "tag": "conversation_5",
             "patterns": [
                 "how many states in india produces coal"
             ],
@@ -48,7 +48,7 @@
             ]
         },
         {
-            "tag": "conversation",
+            "tag": "conversation_6",
             "patterns": [
                 "name the states which produces coal in india"
             ],
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "tag": "conversation",
+            "tag": "conversation_7",
             "patterns": [
                 "name of the state which produces more coal in india"
             ],
@@ -66,7 +66,7 @@
             ]
         },
         {
-            "tag": "conversation",
+            "tag": "conversation_8",
             "patterns": [
                 "in india which state produces more coal"
             ],
@@ -75,25 +75,25 @@
             ]
         },
         {
-            "tag": "conversation",
+            "tag": "conversation_9",
             "patterns": [
                 "how coal mining affects the environment"
             ],
             "responses": [
-                "Coal mining has a number of negative impacts on the environment, including:\n\n* **Air pollution:** Coal mining releases large amounts of dust and other pollutants into the air, which can cause respiratory problems and other health issues.\n* **Water pollution:** Coal mining operations can contaminate water sources with chemicals such as sulfuric acid, heavy metals, and other pollutants. This can make water unsafe to drink or use for irrigation, and can also harm aquatic life.\n* **Land disturbance:** Coal mining operations can destroy forests and other natural areas, and can also lead to soil erosion and landslides.\n* **Climate change:** Coal mining is a major contributor to climate change, as it releases large amounts of carbon dioxide into the atmosphere.\n\nIn addition to these direct impacts, coal mining can also have a number of indirect impacts on the environment, such as:\n\n* **Loss of biodiversity:** Coal mining can destroy habitats for plants and animals, and can also disrupt food chains and other ecological relationships.\n* **Economic impacts:** Coal mining can have a negative impact on local economies, as it can lead to job losses and reduced tax revenue.\n* **Social impacts:** Coal mining can lead to social conflict, as it can displace people from their homes and communities.\n\nThe environmental impacts of coal mining are significant, and they are a major reason why many countries are transitioning away from coal-fired power generation."
+                "Coal mining has a number of negative impacts on the environment, including:\n\n* *Air pollution:* Coal mining releases large amounts of dust and other pollutants into the air, which can cause respiratory problems and other health issues.\n* *Water pollution:* Coal mining operations can contaminate water sources with chemicals such as sulfuric acid, heavy metals, and other pollutants. This can make water unsafe to drink or use for irrigation, and can also harm aquatic life.\n* *Land disturbance:* Coal mining operations can destroy forests and other natural areas, and can also lead to soil erosion and landslides.\n* *Climate change:* Coal mining is a major contributor to climate change, as it releases large amounts of carbon dioxide into the atmosphere.\n\nIn addition to these direct impacts, coal mining can also have a number of indirect impacts on the environment, such as:\n\n* *Loss of biodiversity:* Coal mining can destroy habitats for plants and animals, and can also disrupt food chains and other ecological relationships.\n* *Economic impacts:* Coal mining can have a negative impact on local economies, as it can lead to job losses and reduced tax revenue.\n* *Social impacts:* Coal mining can lead to social conflict, as it can displace people from their homes and communities.\n\nThe environmental impacts of coal mining are significant, and they are a major reason why many countries are transitioning away from coal-fired power generation."
             ]
         },
         {
-            "tag": "conversation",
+            "tag": "conversation_10",
             "patterns": [
                 "counter measures for avoiding envronmental problems caused by coal mining in points"
             ],
             "responses": [
-                "1. **Preventive measures**\n    * **Reclamation:** Restoring land that has been mined to its original condition. This can involve backfilling the mine, regrading the land, and planting vegetation.\n    * **Water treatment:** Treating water that has been contaminated by mining activities to remove pollutants. This can involve filtering the water, adding chemicals to neutralize the pollutants, or using evaporation ponds to evaporate the water.\n    * **Air pollution control:** Reducing the amount of air pollution emitted from coal mining operations. This can involve using dust control measures, capturing and treating emissions from coal-fired power plants, and using alternative fuels that produce less pollution.\n2. **Mitigation measures**\n    * **Landscaping:** Planting vegetation on reclaimed land to help stabilize the soil and prevent erosion.\n    * **Monitoring:** Monitoring the water quality and air quality in the area around a coal mine to ensure that it is not being adversely affected by the mining activities.\n    * **Resettlement:** Providing assistance to people who have been displaced by coal mining activities, such as helping them find new homes and jobs.\n3. **Remedial measures**\n    * **Cleaning up abandoned mine sites:** Cleaning up mine sites that have been abandoned by mining companies. This can involve removing debris, filling in sinkholes, and restoring the land to its original condition.\n    * **Remediating contaminated water:** Cleaning up water that has been contaminated by mining activities. This can involve removing pollutants from the water, or providing alternative sources of water for people who are affected by the contamination.\n    * **Reducing the impacts of coal mining on climate change:** Using alternative fuels that produce less greenhouse gases, or investing in carbon capture and storage technologies."
+                "1. *Preventive measures\n    * **Reclamation:* Restoring land that has been mined to its original condition. This can involve backfilling the mine, regrading the land, and planting vegetation.\n    * *Water treatment:* Treating water that has been contaminated by mining activities to remove pollutants. This can involve filtering the water, adding chemicals to neutralize the pollutants, or using evaporation ponds to evaporate the water.\n    * *Air pollution control:* Reducing the amount of air pollution emitted from coal mining operations. This can involve using dust control measures, capturing and treating emissions from coal-fired power plants, and using alternative fuels that produce less pollution.\n2. *Mitigation measures\n    * **Landscaping:* Planting vegetation on reclaimed land to help stabilize the soil and prevent erosion.\n    * *Monitoring:* Monitoring the water quality and air quality in the area around a coal mine to ensure that it is not being adversely affected by the mining activities.\n    * *Resettlement:* Providing assistance to people who have been displaced by coal mining activities, such as helping them find new homes and jobs.\n3. *Remedial measures\n    * **Cleaning up abandoned mine sites:* Cleaning up mine sites that have been abandoned by mining companies. This can involve removing debris, filling in sinkholes, and restoring the land to its original condition.\n    * *Remediating contaminated water:* Cleaning up water that has been contaminated by mining activities. This can involve removing pollutants from the water, or providing alternative sources of water for people who are affected by the contamination.\n    * *Reducing the impacts of coal mining on climate change:* Using alternative fuels that produce less greenhouse gases, or investing in carbon capture and storage technologies."
             ]
         },
         {
-            "tag": "conversation",
+            "tag": "conversation_11",
             "patterns": [
                 "how much coal did india produced in 2023"
             ],
@@ -102,16 +102,16 @@
             ]
         },
         {
-            "tag": "conversation",
+            "tag": "conversation_12",
             "patterns": [
                 "what is the price of coal in india"
             ],
             "responses": [
-                "The price of coal in India varies depending on the type of coal, the location of the mine, and the quality of the coal. The average price of coal in India is around Rs. 2,000 per tonne.\n\nThe following are some of the factors that affect the price of coal in India:\n\n* **Type of coal:** The price of coal varies depending on the type of coal. For example, the price of bituminous coal is higher than the price of lignite coal.\n* **Location of the mine:** The price of coal also varies depending on the location of the mine. Coal that is mined in remote areas is more expensive than coal that is mined in close proximity to major markets.\n* **Quality of the coal:** The price of coal also varies depending on the quality of the coal. Coal that is high in ash content and low in calorific value is less expensive than coal that is low in ash content and high in calorific value.\n\nThe following are some of the different types of coal that are mined in India:\n\n* **Bituminous coal:** Bituminous coal is the most common type of coal mined in India. It is a hard, black coal that has a high calorific value. Bituminous coal is used to generate electricity and to produce coke.\n* **Lignite coal:** Lignite coal is a soft, brown coal that has a low calorific value. It is mined in large quantities in India and is used to generate electricity.\n* **Coking coal:** Coking coal is a hard, black coal that is used to produce coke. Coke is a fuel that is used in blast furnaces to smelt iron ore.\n\nThe following are some of the major coal-producing states in India:\n\n* **Chhattisgarh:** Chhattisgarh is the largest coal-producing state in India. It produces around 30% of India's total coal production.\n* **West Bengal:** West Bengal is the second-largest coal-producing state in India. It produces around 20% of India's total coal production.\n* **Jharkhand:** Jharkhand is the third-largest coal-producing state in India. It produces around 15% of India's total coal production.\n\nThe following are some of the major coal-consuming states in India:\n\n* **Uttar Pradesh:** Uttar Pradesh is the largest coal-consuming state in India. It consumes around 30% of India's total coal production.\n* **Maharashtra:** Maharashtra is the second-largest coal-consuming state in India. It consumes around 20% of India's total coal production.\n* **Tamil Nadu:** Tamil Nadu is the third-largest coal-consuming state in India. It consumes around 15% of India's total coal production."
+                "The price of coal in India varies depending on the type of coal, the location of the mine, and the quality of the coal. The average price of coal in India is around Rs. 2,000 per tonne.\n\nThe following are some of the factors that affect the price of coal in India:\n\n* *Type of coal:* The price of coal varies depending on the type of coal. For example, the price of bituminous coal is higher than the price of lignite coal.\n* *Location of the mine:* The price of coal also varies depending on the location of the mine. Coal that is mined in remote areas is more expensive than coal that is mined in close proximity to major markets.\n* *Quality of the coal:* The price of coal also varies depending on the quality of the coal. Coal that is high in ash content and low in calorific value is less expensive than coal that is low in ash content and high in calorific value.\n\nThe following are some of the different types of coal that are mined in India:\n\n* *Bituminous coal:* Bituminous coal is the most common type of coal mined in India. It is a hard, black coal that has a high calorific value. Bituminous coal is used to generate electricity and to produce coke.\n* *Lignite coal:* Lignite coal is a soft, brown coal that has a low calorific value. It is mined in large quantities in India and is used to generate electricity.\n* *Coking coal:* Coking coal is a hard, black coal that is used to produce coke. Coke is a fuel that is used in blast furnaces to smelt iron ore.\n\nThe following are some of the major coal-producing states in India:\n\n* *Chhattisgarh:* Chhattisgarh is the largest coal-producing state in India. It produces around 30% of India's total coal production.\n* *West Bengal:* West Bengal is the second-largest coal-producing state in India. It produces around 20% of India's total coal production.\n* *Jharkhand:* Jharkhand is the third-largest coal-producing state in India. It produces around 15% of India's total coal production.\n\nThe following are some of the major coal-consuming states in India:\n\n* *Uttar Pradesh:* Uttar Pradesh is the largest coal-consuming state in India. It consumes around 30% of India's total coal production.\n* *Maharashtra:* Maharashtra is the second-largest coal-consuming state in India. It consumes around 20% of India's total coal production.\n* *Tamil Nadu:* Tamil Nadu is the third-largest coal-consuming state in India. It consumes around 15% of India's total coal production."
             ]
         },
         {
-            "tag": "conversation",
+            "tag": "conversation_13",
             "patterns": [
                 "in india which states are rich in coal"
             ],
@@ -120,25 +120,25 @@
             ]
         },
         {
-            "tag": "conversation",
+            "tag": "conversation_14",
             "patterns": [
                 "how to get the license for coal mining in india"
             ],
             "responses": [
-                "**How to get the license for coal mining in India**\n\nThe process of obtaining a coal mining license in India is governed by the Coal Mines (Nationalisation) Act, 1973. The Act provides for the nationalisation of all coal mines in India and vests the ownership of these mines in the Central Government. The Central Government is responsible for issuing coal mining licenses to private companies and individuals.\n\nThe following are the steps involved in obtaining a coal mining license in India:\n\n1. **Apply for a coal mining lease.** The first step is to apply for a coal mining lease from the Ministry of Coal. The application form can be downloaded from the Ministry's website. The application must be accompanied by the following documents:\n    * A copy of the applicant's valid passport or other identity document\n    * A copy of the applicant's business registration certificate\n    * A feasibility study of the proposed coal mining project\n    * A financial plan for the proposed coal mining project\n    * A detailed environmental impact assessment of the proposed coal mining project\n\n2. **Submit the application to the Ministry of Coal.** Once the application has been completed, it must be submitted to the Ministry of Coal. The Ministry will review the application and, if it is approved, will issue a coal mining lease to the applicant.\n\n3. **Obtain the necessary permits and approvals.** In addition to the coal mining lease, the applicant will also need to obtain the following permits and approvals:\n    * A mining plan approval from the Ministry of Mines\n    * An environmental clearance from the Ministry of Environment and Forests\n    * A forest clearance from the Ministry of Environment and Forests\n    * A water use permit from the State Water Resources Department\n    * A pollution control permit from the State Pollution Control Board\n\n4. **Start mining operations.** Once all of the necessary permits and approvals have been obtained, the applicant can start mining operations. The applicant must comply with all applicable laws and regulations governing coal mining in India.\n\n5. **Renew the coal mining lease.** The coal mining lease is valid for a period of 30 years. The applicant must renew the lease before it expires. The renewal process is similar to the process of obtaining the initial coal mining lease.\n\nThe following are some of the key benefits of obtaining a coal mining license in India:\n\n* The opportunity to generate revenue from the sale of coal.\n* The opportunity to create jobs and boost economic development in the local area.\n* The opportunity to contribute to the country's energy security.\n\nHowever, there are also some risks associated with coal mining, such as the potential for environmental damage and health hazards. It is important to weigh the benefits and risks carefully before deciding whether to pursue a coal mining license in India."
+                "*How to get the license for coal mining in India\n\nThe process of obtaining a coal mining license in India is governed by the Coal Mines (Nationalisation) Act, 1973. The Act provides for the nationalisation of all coal mines in India and vests the ownership of these mines in the Central Government. The Central Government is responsible for issuing coal mining licenses to private companies and individuals.\n\nThe following are the steps involved in obtaining a coal mining license in India:\n\n1. **Apply for a coal mining lease.* The first step is to apply for a coal mining lease from the Ministry of Coal. The application form can be downloaded from the Ministry's website. The application must be accompanied by the following documents:\n    * A copy of the applicant's valid passport or other identity document\n    * A copy of the applicant's business registration certificate\n    * A feasibility study of the proposed coal mining project\n    * A financial plan for the proposed coal mining project\n    * A detailed environmental impact assessment of the proposed coal mining project\n\n2. *Submit the application to the Ministry of Coal.* Once the application has been completed, it must be submitted to the Ministry of Coal. The Ministry will review the application and, if it is approved, will issue a coal mining lease to the applicant.\n\n3. *Obtain the necessary permits and approvals.* In addition to the coal mining lease, the applicant will also need to obtain the following permits and approvals:\n    * A mining plan approval from the Ministry of Mines\n    * An environmental clearance from the Ministry of Environment and Forests\n    * A forest clearance from the Ministry of Environment and Forests\n    * A water use permit from the State Water Resources Department\n    * A pollution control permit from the State Pollution Control Board\n\n4. *Start mining operations.* Once all of the necessary permits and approvals have been obtained, the applicant can start mining operations. The applicant must comply with all applicable laws and regulations governing coal mining in India.\n\n5. *Renew the coal mining lease.* The coal mining lease is valid for a period of 30 years. The applicant must renew the lease before it expires. The renewal process is similar to the process of obtaining the initial coal mining lease.\n\nThe following are some of the key benefits of obtaining a coal mining license in India:\n\n* The opportunity to generate revenue from the sale of coal.\n* The opportunity to create jobs and boost economic development in the local area.\n* The opportunity to contribute to the country's energy security.\n\nHowever, there are also some risks associated with coal mining, such as the potential for environmental damage and health hazards. It is important to weigh the benefits and risks carefully before deciding whether to pursue a coal mining license in India."
             ]
         },
         {
-            "tag": "conversation",
+            "tag": "conversation_15",
             "patterns": [
                 "how to get coal mining license in india"
             ],
             "responses": [
-                "To get a coal mining license in India, you need to follow these steps:\n\n1. **Apply for a prospecting license.** This license allows you to explore for coal on a particular piece of land. You can apply for a prospecting license online through the Ministry of Coal website.\n2. **Submit a mining plan.** Once you have found a coal deposit, you need to submit a mining plan to the Ministry of Coal. The mining plan must include details such as the location of the mine, the type of coal that will be mined, and the environmental impact of the mine.\n3. **Obtain a mining lease.** The Ministry of Coal will review your mining plan and, if it is approved, will issue you a mining lease. The mining lease gives you the right to mine coal on the land for a specified period of time.\n4. **Start mining.** Once you have a mining lease, you can start mining coal. You must comply with all applicable laws and regulations, including the Mines and Minerals (Development and Regulation) Act, 1957.\n\nFor more information on how to get a coal mining license in India, you can visit the Ministry of Coal website."
+                "To get a coal mining license in India, you need to follow these steps:\n\n1. *Apply for a prospecting license.* This license allows you to explore for coal on a particular piece of land. You can apply for a prospecting license online through the Ministry of Coal website.\n2. *Submit a mining plan.* Once you have found a coal deposit, you need to submit a mining plan to the Ministry of Coal. The mining plan must include details such as the location of the mine, the type of coal that will be mined, and the environmental impact of the mine.\n3. *Obtain a mining lease.* The Ministry of Coal will review your mining plan and, if it is approved, will issue you a mining lease. The mining lease gives you the right to mine coal on the land for a specified period of time.\n4. *Start mining.* Once you have a mining lease, you can start mining coal. You must comply with all applicable laws and regulations, including the Mines and Minerals (Development and Regulation) Act, 1957.\n\nFor more information on how to get a coal mining license in India, you can visit the Ministry of Coal website."
             ]
         },
         {
-            "tag": "conversation",
+            "tag": "conversation_16",
             "patterns": [
                 "how many acts and laws are there in indian ministry of coal"
             ],
@@ -147,16 +147,16 @@
             ]
         },
         {
-            "tag": "conversation",
+            "tag": "conversation_17",
             "patterns": [
                 "new laws given by the indian minstry of coal"
             ],
             "responses": [
-                "The Indian Ministry of Coal has recently announced a number of new laws and regulations governing the coal industry. These laws are designed to improve the efficiency and transparency of the coal sector, and to ensure that coal mining is conducted in a safe and environmentally sustainable manner.\n\nSome of the key new laws include:\n\n* **The Coal Mines (Nationalisation) Amendment Act, 2020**. This act amends the Coal Mines (Nationalisation) Act, 1973, to provide for the auction of coal mines that are currently under government control. The auction process is intended to ensure that coal mines are awarded to the highest bidder, and that the proceeds from the auctions are used to benefit the Indian people.\n* **The Coal Mines (Special Provisions) Act, 2020**. This act provides for the establishment of a Coal Mines Authority (CMA) to oversee the auction and operation of coal mines. The CMA will be responsible for ensuring that the auction process is fair and transparent, and that coal mines are operated in a safe and environmentally sustainable manner.\n* **The Coal Mines (Conservation and Development) Amendment Rules, 2020**. These rules amend the Coal Mines (Conservation and Development) Rules, 2004, to strengthen the regulations governing coal mining. The rules include new provisions on mine safety, environmental protection, and the rehabilitation of mining areas.\n\nThese new laws are a significant step forward for the Indian coal industry. They will help to improve the efficiency and transparency of the sector, and to ensure that coal mining is conducted in a safe and environmentally sustainable manner.\n\nHere is a more detailed list of the new laws:\n\n* **The Coal Mines (Nationalisation) Amendment Act, 2020**\n    * Amends the Coal Mines (Nationalisation) Act, 1973, to provide for the auction of coal mines that are currently under government control.\n    * The auction process is intended to ensure that coal mines are awarded to the highest bidder, and that the proceeds from the auctions are used to benefit the Indian people.\n* **The Coal Mines (Special Provisions) Act, 2020**\n    * Establishes a Coal Mines Authority (CMA) to oversee the auction and operation of coal mines.\n    * The CMA will be responsible for ensuring that the auction process is fair and transparent, and that coal mines are operated in a safe and environmentally sustainable manner.\n* **The Coal Mines (Conservation and Development) Amendment Rules, 2020**\n    * Amend the Coal Mines (Conservation and Development) Rules, 2004, to strengthen the regulations governing coal mining.\n    * The rules include new provisions on mine safety, environmental protection, and the rehabilitation of mining areas.\n\nThese new laws are a significant step forward for the Indian coal industry. They will help to improve the efficiency and transparency of the sector, and to ensure that coal mining is conducted in a safe and environmentally sustainable manner."
+                "The Indian Ministry of Coal has recently announced a number of new laws and regulations governing the coal industry. These laws are designed to improve the efficiency and transparency of the coal sector, and to ensure that coal mining is conducted in a safe and environmentally sustainable manner.\n\nSome of the key new laws include:\n\n* *The Coal Mines (Nationalisation) Amendment Act, 2020. This act amends the Coal Mines (Nationalisation) Act, 1973, to provide for the auction of coal mines that are currently under government control. The auction process is intended to ensure that coal mines are awarded to the highest bidder, and that the proceeds from the auctions are used to benefit the Indian people.\n *The Coal Mines (Special Provisions) Act, 2020. This act provides for the establishment of a Coal Mines Authority (CMA) to oversee the auction and operation of coal mines. The CMA will be responsible for ensuring that the auction process is fair and transparent, and that coal mines are operated in a safe and environmentally sustainable manner.\n *The Coal Mines (Conservation and Development) Amendment Rules, 2020. These rules amend the Coal Mines (Conservation and Development) Rules, 2004, to strengthen the regulations governing coal mining. The rules include new provisions on mine safety, environmental protection, and the rehabilitation of mining areas.\n\nThese new laws are a significant step forward for the Indian coal industry. They will help to improve the efficiency and transparency of the sector, and to ensure that coal mining is conducted in a safe and environmentally sustainable manner.\n\nHere is a more detailed list of the new laws:\n\n *The Coal Mines (Nationalisation) Amendment Act, 2020\n    * Amends the Coal Mines (Nationalisation) Act, 1973, to provide for the auction of coal mines that are currently under government control.\n    * The auction process is intended to ensure that coal mines are awarded to the highest bidder, and that the proceeds from the auctions are used to benefit the Indian people.\n *The Coal Mines (Special Provisions) Act, 2020\n    * Establishes a Coal Mines Authority (CMA) to oversee the auction and operation of coal mines.\n    * The CMA will be responsible for ensuring that the auction process is fair and transparent, and that coal mines are operated in a safe and environmentally sustainable manner.\n *The Coal Mines (Conservation and Development) Amendment Rules, 2020*\n    * Amend the Coal Mines (Conservation and Development) Rules, 2004, to strengthen the regulations governing coal mining.\n    * The rules include new provisions on mine safety, environmental protection, and the rehabilitation of mining areas.\n\nThese new laws are a significant step forward for the Indian coal industry. They will help to improve the efficiency and transparency of the sector, and to ensure that coal mining is conducted in a safe and environmentally sustainable manner."
             ]
         },
         {
-            "tag": "conversation",
+            "tag": "conversation_18",
             "patterns": [
                 "how much money does india gets from coal mining"
             ],
@@ -165,7 +165,7 @@
             ]
         },
         {
-            "tag": "conversation",
+            "tag": "conversation_19",
             "patterns": [
                 "When is a coal mining report required in india"
             ],
@@ -174,25 +174,25 @@
             ]
         },
         {
-            "tag": "conversation",
+            "tag": "conversation_20",
             "patterns": [
                 "how do i know if my property is in a coal mining area? in india"
             ],
             "responses": [
-                "There are a few ways to check if your property is in a coal mining area in India.\n\n* **Check with the local government.** The local government will have records of all coal mining leases in the area. You can contact the local planning department or the mining department to inquire about your property.\n* **Check with the coal mining company.** The coal mining company that owns the lease for the area may be able to provide you with information about your property. You can find contact information for coal mining companies on the website of the Ministry of Coal.\n* **Check online.** The Ministry of Coal maintains a database of all coal mining leases in India. You can search the database by property address to see if your property is located in a coal mining area.\n\nHere are the links to the websites of the Ministry of Coal and the local planning department in Delhi:\n\n* [Ministry of Coal](https://coal.gov.in/)\n* [Delhi Government Planning Department](https://planning.delhi.gov.in/)"
+                "There are a few ways to check if your property is in a coal mining area in India.\n\n* *Check with the local government.* The local government will have records of all coal mining leases in the area. You can contact the local planning department or the mining department to inquire about your property.\n* *Check with the coal mining company.* The coal mining company that owns the lease for the area may be able to provide you with information about your property. You can find contact information for coal mining companies on the website of the Ministry of Coal.\n* *Check online.* The Ministry of Coal maintains a database of all coal mining leases in India. You can search the database by property address to see if your property is located in a coal mining area.\n\nHere are the links to the websites of the Ministry of Coal and the local planning department in Delhi:\n\n* [Ministry of Coal](https://coal.gov.in/)\n* [Delhi Government Planning Department](https://planning.delhi.gov.in/)"
             ]
         },
         {
-            "tag": "conversation",
+            "tag": "conversation_21",
             "patterns": [
                 "why coal mining is so important for india"
             ],
             "responses": [
-                "Coal mining is important for India for a number of reasons.\n\n* **It provides a source of energy for the country.** Coal is a fossil fuel that can be burned to produce heat, which can then be used to generate electricity or power industrial processes. India is a major coal producer, and coal accounts for a significant proportion of the country's energy mix.\n* **It supports employment.** The coal mining industry employs a large number of people in India. In 2019, the coal mining sector employed an estimated 4.5 million people directly and indirectly.\n* **It contributes to the economy.** The coal mining industry contributes significantly to the Indian economy. In 2019, the coal mining sector generated an estimated \u20b91.5 trillion ($20 billion) in revenue.\n* **It helps to meet the country's energy needs.** India is a rapidly growing economy, and its energy demand is increasing. Coal is a reliable and affordable source of energy that can help to meet the country's growing energy needs.\n\nHowever, coal mining also has a number of negative impacts, including environmental pollution, greenhouse gas emissions, and health risks. The Indian government is taking steps to address these negative impacts, such as investing in renewable energy sources and promoting energy efficiency.\n\nOverall, coal mining is an important part of the Indian economy and society. However, it is important to weigh the benefits of coal mining against the negative impacts in order to make informed decisions about the future of the industry.\n\nHere are some specific examples of how coal mining has helped India:\n\n* Coal-fired power plants provide electricity to millions of people in India. In 2019, coal-fired power plants generated an estimated 70% of India's electricity.\n* Coal is used to produce steel, which is a key material for many industries. India is the world's second-largest producer of steel, and coal is a major input into the steelmaking process.\n* Coal is used to produce cement, which is another key material for many industries. India is the world's second-largest producer of cement, and coal is a major input into the cementmaking process.\n\nCoal mining has also helped to support the development of other industries in India, such as mining, manufacturing, and transportation."
+                "Coal mining is important for India for a number of reasons.\n\n* *It provides a source of energy for the country.* Coal is a fossil fuel that can be burned to produce heat, which can then be used to generate electricity or power industrial processes. India is a major coal producer, and coal accounts for a significant proportion of the country's energy mix.\n* *It supports employment.* The coal mining industry employs a large number of people in India. In 2019, the coal mining sector employed an estimated 4.5 million people directly and indirectly.\n* *It contributes to the economy.* The coal mining industry contributes significantly to the Indian economy. In 2019, the coal mining sector generated an estimated \u20b91.5 trillion ($20 billion) in revenue.\n* *It helps to meet the country's energy needs.* India is a rapidly growing economy, and its energy demand is increasing. Coal is a reliable and affordable source of energy that can help to meet the country's growing energy needs.\n\nHowever, coal mining also has a number of negative impacts, including environmental pollution, greenhouse gas emissions, and health risks. The Indian government is taking steps to address these negative impacts, such as investing in renewable energy sources and promoting energy efficiency.\n\nOverall, coal mining is an important part of the Indian economy and society. However, it is important to weigh the benefits of coal mining against the negative impacts in order to make informed decisions about the future of the industry.\n\nHere are some specific examples of how coal mining has helped India:\n\n* Coal-fired power plants provide electricity to millions of people in India. In 2019, coal-fired power plants generated an estimated 70% of India's electricity.\n* Coal is used to produce steel, which is a key material for many industries. India is the world's second-largest producer of steel, and coal is a major input into the steelmaking process.\n* Coal is used to produce cement, which is another key material for many industries. India is the world's second-largest producer of cement, and coal is a major input into the cementmaking process.\n\nCoal mining has also helped to support the development of other industries in India, such as mining, manufacturing, and transportation."
             ]
         },
         {
-            "tag": "conversation",
+            "tag": "conversation_22",
             "patterns": [
                 "which state produces more coal in india"
             ],
@@ -201,16 +201,16 @@
             ]
         },
         {
-            "tag": "conversation",
+            "tag": "conversation_23",
             "patterns": [
                 "how the quality of coal is determined"
             ],
             "responses": [
-                "The quality of coal is determined in India by the following parameters:\n\n* **Calorific value (CV)**: This is the amount of heat energy released when a unit mass of coal is burned. It is expressed in kilojoules per kilogram (kJ/kg).\n* **Ash content:** This is the percentage of ash left after a coal sample is burned. Ash can be a source of impurities in the coal, and can also reduce the efficiency of coal-fired power plants.\n* **Sulphur content:** This is the percentage of sulphur in a coal sample. Sulphur can be a pollutant when it is released into the atmosphere during combustion.\n* **Moisture content:** This is the percentage of water in a coal sample. Moisture can reduce the calorific value of coal, and can also cause problems with handling and storage.\n* **Ash fusion temperature:** This is the temperature at which the ash in a coal sample begins to melt. Ash fusion temperature is important because it can affect the design of coal-fired power plants.\n* **Volatile matter content:** This is the percentage of volatile matter in a coal sample. Volatile matter is the material that evaporates when a coal sample is heated. Volatile matter can affect the combustion characteristics of coal, and can also be a source of pollutants.\n\nThe Indian government has set standards for the quality of coal that is used in power plants. These standards are based on the calorific value, ash content, sulphur content, moisture content, ash fusion temperature, and volatile matter content of the coal.\n\nCoal that meets the government standards is considered to be of good quality. Coal that does not meet the standards is considered to be of poor quality. Poor quality coal can cause problems with the efficiency of coal-fired power plants, and can also release more pollutants into the atmosphere.\n\nThe quality of coal can be improved by washing the coal to remove impurities, and by blending different types of coal to achieve the desired characteristics."
+                "The quality of coal is determined in India by the following parameters:\n\n* *Calorific value (CV): This is the amount of heat energy released when a unit mass of coal is burned. It is expressed in kilojoules per kilogram (kJ/kg).\n *Ash content:* This is the percentage of ash left after a coal sample is burned. Ash can be a source of impurities in the coal, and can also reduce the efficiency of coal-fired power plants.\n* *Sulphur content:* This is the percentage of sulphur in a coal sample. Sulphur can be a pollutant when it is released into the atmosphere during combustion.\n* *Moisture content:* This is the percentage of water in a coal sample. Moisture can reduce the calorific value of coal, and can also cause problems with handling and storage.\n* *Ash fusion temperature:* This is the temperature at which the ash in a coal sample begins to melt. Ash fusion temperature is important because it can affect the design of coal-fired power plants.\n* *Volatile matter content:* This is the percentage of volatile matter in a coal sample. Volatile matter is the material that evaporates when a coal sample is heated. Volatile matter can affect the combustion characteristics of coal, and can also be a source of pollutants.\n\nThe Indian government has set standards for the quality of coal that is used in power plants. These standards are based on the calorific value, ash content, sulphur content, moisture content, ash fusion temperature, and volatile matter content of the coal.\n\nCoal that meets the government standards is considered to be of good quality. Coal that does not meet the standards is considered to be of poor quality. Poor quality coal can cause problems with the efficiency of coal-fired power plants, and can also release more pollutants into the atmosphere.\n\nThe quality of coal can be improved by washing the coal to remove impurities, and by blending different types of coal to achieve the desired characteristics."
             ]
         },
         {
-            "tag": "conversation",
+            "tag": "conversation_24",
             "patterns": [
                 "how much does 1kg of coal cost"
             ],
@@ -219,7 +219,7 @@
             ]
         },
         {
-            "tag": "conversation",
+            "tag": "conversation_25",
             "patterns": [
                 "which state uses more coal to produce electricity "
             ],
@@ -228,7 +228,7 @@
             ]
         },
         {
-            "tag": "conversation",
+            "tag": "conversation_26",
             "patterns": [
                 "how many coal mines does tamilnadu has"
             ],
@@ -237,7 +237,7 @@
             ]
         },
         {
-            "tag": "conversation",
+            "tag": "conversation_27",
             "patterns": [
                 "in which place the coal mine in tamilnadu   is located"
             ],
@@ -246,7 +246,7 @@
             ]
         },
         {
-            "tag": "conversation",
+            "tag": "conversation_28",
             "patterns": [
                 "how much coal we have"
             ],
@@ -255,7 +255,7 @@
             ]
         },
         {
-            "tag": "conversation",
+            "tag": "conversation_29",
             "patterns": [
                 "how much  coal we have"
             ],
@@ -264,7 +264,7 @@
             ]
         },
         {
-            "tag": "conversation",
+            "tag": "conversation_30",
             "patterns": [
                 "hi"
             ],
@@ -273,7 +273,7 @@
             ]
         },
         {
-            "tag": "conversation",
+            "tag": "conversation_31",
             "patterns": [
                 "what is the overall coal production in october 2023 "
             ],
@@ -282,7 +282,7 @@
             ]
         },
         {
-            "tag": "conversation",
+            "tag": "conversation_32",
             "patterns": [
                 "hey"
             ],
@@ -291,12 +291,57 @@
             ]
         },
         {
-            "tag": "conversation",
+            "tag": "conversation_33",
             "patterns": [
                 "whats the cost of coal "
             ],
             "responses": [
                 "1,400 to 1,600 INR per tonne"
+            ]
+        },
+        {
+            "tag": "conversation_34",
+            "patterns": [
+                "what is coal mining"
+            ],
+            "responses": [
+                "Coal mining in India is a major industry, with India being the world's third-largest producer of coal. The Indian coal industry is responsible for providing a significant proportion of the country's energy needs, and is also a major source of employment.\n\nThe history of coal mining in India dates back to the 18th century, when the first coal mines were established in the Raniganj coalfield in West Bengal. Coal mining in India expanded rapidly during the 20th century, and by the 1970s, India was the world's second-largest producer of coal.\n\nHowever, the Indian coal industry has faced a number of challenges in recent years, including a decline in production, a lack of investment, and environmental concerns. In 2015, the Indian government announced a plan to invest \\$50 billion in the coal industry over the next five years, in an effort to boost production and address environmental concerns.\n\nDespite the challenges, the Indian coal industry remains a major player in the global coal market. India is expected to remain a major producer of coal for many years to come, and the industry is likely to continue to play a significant role in the country's economy.\n\n## Key facts about coal mining in India\n\n* India is the world's third-largest producer of coal, after China and the United States.\n* The Indian coal industry is responsible for providing a significant proportion of the country's energy needs.\n* Coal mining in India has a long history, dating back to the 18th century.\n* The Indian coal industry has faced a number of challenges in recent years, including a decline in production, a lack of investment, and environmental concerns.\n* The Indian government has announced a plan to invest \\$50 billion in the coal industry over the next five years.\n* India is expected to remain a major producer of coal for many years to come.\n\n## References\n\n* [Coal India Limited](https://www.coalindia.in/)\n* [Ministry of Coal](https://coal.gov.in/)\n* [World Coal Association](https://www.worldcoal.org/)"
+            ]
+        },
+        {
+            "tag": "conversation_35",
+            "patterns": [
+                "major problems of coal mining"
+            ],
+            "responses": [
+                "* *Subsidence:* Subsidence is the sinking of the ground surface due to the extraction of coal from underground. This can cause damage to buildings and infrastructure, and can also lead to flooding.\n* *Water pollution:* Coal mining can pollute water sources through the leaching of chemicals from the coal seams into groundwater. This can contaminate drinking water and make it unsafe for human consumption.\n* *Air pollution:* Coal mining operations can release harmful pollutants into the air, including particulate matter, sulfur dioxide, and nitrogen oxides. These pollutants can cause respiratory problems and other health issues.\n* *Land degradation:* Coal mining can cause land degradation through the removal of vegetation and the creation of open pits. This can lead to soil erosion and the loss of biodiversity.\n* *Social impacts:* Coal mining can have a negative impact on the social fabric of communities, including through the displacement of people from their homes, the disruption of livelihoods, and the increased risk of accidents.\n\nThese are just some of the major problems associated with coal mining in India. It is important to be aware of these issues when considering the future of coal mining in the country."
+            ]
+        },
+        {
+            "tag": "conversation_36",
+            "patterns": [
+                "who is the coal minister"
+            ],
+            "responses": [
+                "Pralhad Joshi"
+            ]
+        },
+        {
+            "tag": "conversation",
+            "patterns": [
+                "hello"
+            ],
+            "responses": [
+                "Hello im carbon you AI assistant how can i help you!"
+            ]
+        },
+        {
+            "tag": "conversation",
+            "patterns": [
+                "what is coal ining"
+            ],
+            "responses": [
+                "Coal mining in India is a major industry, with India being the world's third-largest producer of coal. The Indian coal industry is responsible for providing a significant proportion of the country's energy needs, and is also a major source of employment.\n\nThe history of coal mining in India dates back to the 18th century, when the first coal mines were established in the Raniganj coalfield in West Bengal. Coal mining in India expanded rapidly during the 20th century, and by the 1970s, India was the world's second-largest producer of coal.\n\nHowever, the Indian coal industry has faced a number of challenges in recent years, including a decline in production, a lack of investment, and environmental concerns. In 2015, the Indian government announced a plan to invest \\$50 billion in the coal industry over the next five years, in an effort to boost production and improve efficiency.\n\nDespite the challenges, the Indian coal industry remains a major player in the global coal market. India is expected to remain a major producer of coal for many years to come, and the industry is likely to continue to play an important role in the country's economy.\n\n## Key facts about coal mining in India\n\n* India is the world's third-largest producer of coal, after China and the United States.\n* The Indian coal industry is responsible for providing a significant proportion of the country's energy needs.\n* Coal mining in India dates back to the 18th century.\n* The Indian coal industry expanded rapidly during the 20th century.\n* By the 1970s, India was the world's second-largest producer of coal.\n* The Indian coal industry has faced a number of challenges in recent years, including a decline in production, a lack of investment, and environmental concerns.\n* In 2015, the Indian government announced a plan to invest \\$50 billion in the coal industry over the next five years.\n* India is expected to remain a major producer of coal for many years to come.\n\n## References\n\n* [Coal India Limited](https://www.coalindia.in/)\n* [Ministry of Coal](https://coal.gov.in/)\n* [The Energy and Resources Institute](https://www.teri.res.in/)"
             ]
         },
         {
@@ -311,16 +356,52 @@
         {
             "tag": "conversation",
             "patterns": [
-                "major problems of coal mining"
+                "who is the coal minister"
             ],
             "responses": [
-                "* **Subsidence:** Subsidence is the sinking of the ground surface due to the extraction of coal from underground. This can cause damage to buildings and infrastructure, and can also lead to flooding.\n* **Water pollution:** Coal mining can pollute water sources through the leaching of chemicals from the coal seams into groundwater. This can contaminate drinking water and make it unsafe for human consumption.\n* **Air pollution:** Coal mining operations can release harmful pollutants into the air, including particulate matter, sulfur dioxide, and nitrogen oxides. These pollutants can cause respiratory problems and other health issues.\n* **Land degradation:** Coal mining can cause land degradation through the removal of vegetation and the creation of open pits. This can lead to soil erosion and the loss of biodiversity.\n* **Social impacts:** Coal mining can have a negative impact on the social fabric of communities, including through the displacement of people from their homes, the disruption of livelihoods, and the increased risk of accidents.\n\nThese are just some of the major problems associated with coal mining in India. It is important to be aware of these issues when considering the future of coal mining in the country."
+                "Pralhad Joshi"
             ]
         },
         {
             "tag": "conversation",
             "patterns": [
-                "who is the coal minister"
+                "coal industry acts and laws"
+            ],
+            "responses": [
+                "* **Coal Mines Act, 1952**\n* **Coal Mines Regulation Act, 1957**\n* **Coal Bearing Areas (Acquisition and Development) Act, 1957**\n* **Coal Mines Nationalisation Act, 1973**\n* **Coal Mines (Conservation and Development) Act, 1974**\n* **Coal Mines (Nationalisation) Amendment Act, 2015**\n\nThese acts and laws govern all aspects of the coal industry in India, from the exploration and mining of coal to the sale and distribution of coal. They establish the regulatory framework for the coal industry and ensure that it is managed in a sustainable and efficient manner."
+            ]
+        },
+        {
+            "tag": "conversation",
+            "patterns": [
+                "hi"
+            ],
+            "responses": [
+                "\u0928\u092e\u0938\u094d\u0924\u0947 \u092d\u093e\u0930\u0924"
+            ]
+        },
+        {
+            "tag": "conversation",
+            "patterns": [
+                "who is the PM "
+            ],
+            "responses": [
+                "Narendra Modi"
+            ]
+        },
+        {
+            "tag": "conversation",
+            "patterns": [
+                "who is the coal minister of 2015"
+            ],
+            "responses": [
+                "Piyush Goyal"
+            ]
+        },
+        {
+            "tag": "conversation",
+            "patterns": [
+                "name of the current coal minister"
             ],
             "responses": [
                 "Pralhad Joshi"

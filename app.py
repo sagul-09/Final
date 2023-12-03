@@ -51,7 +51,7 @@ def save_conversation(user_message, bot_response):
 
 @app.route('/')
 def index_get():
-    return render_template("base.html")
+    return render_template("base.html") 
 
 @app.route("/predict", methods=['POST'])
 def predict():
