@@ -22,14 +22,15 @@ def save_conversation(user_message, bot_response):
     # Check if the conversation already exists in MongoDB
     existing_conversation = conversations.find_one({
         "patterns": {"$elemMatch": {"$eq": user_message}},
-        "responses": {"$elemMatch": {"$eq": bot_response}},
-        "tag": "conversation"
+        "responses": {"$elemMatch": {"$eq": bot_response}}
     })
 
     # If the conversation does not exist, save it to MongoDB
     if existing_conversation is None:
+        conversation_count = conversations.count_documents({})
+        new_conversation_tag = f"conversation_{conversation_count + 1}"
         conversation = {
-            "tag": "conversation",
+            "tag": new_conversation_tag,
             "patterns": [user_message],
             "responses": [bot_response]
         }
@@ -38,16 +39,18 @@ def save_conversation(user_message, bot_response):
     # Save to intents.json
     with open('intents.json', 'r+') as file:
         data = json.load(file)
-        existing_conversations = [intent for intent in data['intents'] if intent['tag'] == 'conversation']
+        existing_conversations = [intent for intent in data['intents'] if 'conversation' in intent['tag']]
         if not any(conv for conv in existing_conversations if conv['patterns'][0] == user_message and conv['responses'][0] == bot_response):
+            conversation_count = len(existing_conversations)
+            new_conversation_tag = f"conversation_{conversation_count + 1}"
             data['intents'].append({
-                "tag": "conversation",
+                "tag": new_conversation_tag,
                 "patterns": [user_message],
                 "responses": [bot_response]
             })
-        file.seek(0)
-        json.dump(data, file, indent=4)
-        file.truncate()
+            file.seek(0)
+            json.dump(data, file, indent=4)
+            file.truncate()
 
 @app.route('/')
 def index_get():

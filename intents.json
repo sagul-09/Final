@@ -327,84 +327,48 @@
             ]
         },
         {
-            "tag": "conversation",
+            "tag": "conversation_37",
             "patterns": [
-                "hello"
-            ],
-            "responses": [
-                "Hello im carbon you AI assistant how can i help you!"
-            ]
-        },
-        {
-            "tag": "conversation",
-            "patterns": [
-                "what is coal ining"
-            ],
-            "responses": [
-                "Coal mining in India is a major industry, with India being the world's third-largest producer of coal. The Indian coal industry is responsible for providing a significant proportion of the country's energy needs, and is also a major source of employment.\n\nThe history of coal mining in India dates back to the 18th century, when the first coal mines were established in the Raniganj coalfield in West Bengal. Coal mining in India expanded rapidly during the 20th century, and by the 1970s, India was the world's second-largest producer of coal.\n\nHowever, the Indian coal industry has faced a number of challenges in recent years, including a decline in production, a lack of investment, and environmental concerns. In 2015, the Indian government announced a plan to invest \\$50 billion in the coal industry over the next five years, in an effort to boost production and improve efficiency.\n\nDespite the challenges, the Indian coal industry remains a major player in the global coal market. India is expected to remain a major producer of coal for many years to come, and the industry is likely to continue to play an important role in the country's economy.\n\n## Key facts about coal mining in India\n\n* India is the world's third-largest producer of coal, after China and the United States.\n* The Indian coal industry is responsible for providing a significant proportion of the country's energy needs.\n* Coal mining in India dates back to the 18th century.\n* The Indian coal industry expanded rapidly during the 20th century.\n* By the 1970s, India was the world's second-largest producer of coal.\n* The Indian coal industry has faced a number of challenges in recent years, including a decline in production, a lack of investment, and environmental concerns.\n* In 2015, the Indian government announced a plan to invest \\$50 billion in the coal industry over the next five years.\n* India is expected to remain a major producer of coal for many years to come.\n\n## References\n\n* [Coal India Limited](https://www.coalindia.in/)\n* [Ministry of Coal](https://coal.gov.in/)\n* [The Energy and Resources Institute](https://www.teri.res.in/)"
-            ]
-        },
-        {
-            "tag": "conversation",
-            "patterns": [
-                "what is coal mining"
-            ],
-            "responses": [
-                "Coal mining in India is a major industry, with India being the world's third-largest producer of coal. The Indian coal industry is responsible for providing a significant proportion of the country's energy needs, and is also a major source of employment.\n\nThe history of coal mining in India dates back to the 18th century, when the first coal mines were established in the Raniganj coalfield in West Bengal. Coal mining in India expanded rapidly during the 20th century, and by the 1970s, India was the world's second-largest producer of coal.\n\nHowever, the Indian coal industry has faced a number of challenges in recent years, including a decline in production, a lack of investment, and environmental concerns. In 2015, the Indian government announced a plan to invest \\$50 billion in the coal industry over the next five years, in an effort to boost production and address environmental concerns.\n\nDespite the challenges, the Indian coal industry remains a major player in the global coal market. India is expected to remain a major producer of coal for many years to come, and the industry is likely to continue to play a significant role in the country's economy.\n\n## Key facts about coal mining in India\n\n* India is the world's third-largest producer of coal, after China and the United States.\n* The Indian coal industry is responsible for providing a significant proportion of the country's energy needs.\n* Coal mining in India has a long history, dating back to the 18th century.\n* The Indian coal industry has faced a number of challenges in recent years, including a decline in production, a lack of investment, and environmental concerns.\n* The Indian government has announced a plan to invest \\$50 billion in the coal industry over the next five years.\n* India is expected to remain a major producer of coal for many years to come.\n\n## References\n\n* [Coal India Limited](https://www.coalindia.in/)\n* [Ministry of Coal](https://coal.gov.in/)\n* [World Coal Association](https://www.worldcoal.org/)"
-            ]
-        },
-        {
-            "tag": "conversation",
-            "patterns": [
-                "who is the coal minister"
-            ],
-            "responses": [
-                "Pralhad Joshi"
-            ]
-        },
-        {
-            "tag": "conversation",
-            "patterns": [
-                "coal industry acts and laws"
-            ],
-            "responses": [
-                "* **Coal Mines Act, 1952**\n* **Coal Mines Regulation Act, 1957**\n* **Coal Bearing Areas (Acquisition and Development) Act, 1957**\n* **Coal Mines Nationalisation Act, 1973**\n* **Coal Mines (Conservation and Development) Act, 1974**\n* **Coal Mines (Nationalisation) Amendment Act, 2015**\n\nThese acts and laws govern all aspects of the coal industry in India, from the exploration and mining of coal to the sale and distribution of coal. They establish the regulatory framework for the coal industry and ensure that it is managed in a sustainable and efficient manner."
-            ]
-        },
-        {
-            "tag": "conversation",
-            "patterns": [
-                "hi"
-            ],
-            "responses": [
-                "\u0928\u092e\u0938\u094d\u0924\u0947 \u092d\u093e\u0930\u0924"
-            ]
-        },
-        {
-            "tag": "conversation",
-            "patterns": [
-                "who is the PM "
-            ],
-            "responses": [
-                "Narendra Modi"
-            ]
-        },
-        {
-            "tag": "conversation",
-            "patterns": [
-                "who is the coal minister of 2015"
+                "who is the coal minister in 2016"
             ],
             "responses": [
                 "Piyush Goyal"
             ]
         },
         {
-            "tag": "conversation",
+            "tag": "conversation_38",
             "patterns": [
-                "name of the current coal minister"
+                "who is the coal minister in 2015"
             ],
             "responses": [
-                "Pralhad Joshi"
+                "Piyush Goyal"
+            ]
+        },
+        {
+            "tag": "conversation_39",
+            "patterns": [
+                "who is the Pm"
+            ],
+            "responses": [
+                "Narendra Modi"
+            ]
+        },
+        {
+            "tag": "conversation_40",
+            "patterns": [
+                "who is the PM"
+            ],
+            "responses": [
+                "Narendra Modi"
+            ]
+        },
+        {
+            "tag": "conversation_41",
+            "patterns": [
+                "new rules issued by ministry of coal"
+            ],
+            "responses": [
+                "The Ministry of Coal has issued new rules for the coal sector. The rules aim to improve the transparency and efficiency of the coal sector, and to ensure that coal is mined in a sustainable manner.\n\nSome of the key changes in the new rules include:\n\n* **Increased transparency in the coal auction process.** The new rules require that all coal auctions be conducted through a transparent and competitive process. This will help to ensure that the coal is sold at a fair price, and that it is sold to the highest bidder.\n* **Improved environmental safeguards.** The new rules include a number of measures to improve the environmental safeguards for coal mining. These measures include requirements for environmental impact assessments, and for the rehabilitation of mined areas.\n* **Strengthened enforcement of the rules.** The new rules provide for stronger enforcement of the rules. This includes increased penalties for violations of the rules, and the establishment of a new Coal Mine Safety Authority to oversee the implementation of the rules.\n\nThe new rules are a significant step forward for the coal sector in India. They will help to improve the transparency, efficiency, and sustainability of the coal sector, and will help to ensure that coal is mined in a safe and environmentally responsible manner.\n\nHere are the links to the new rules:\n\n* [Coal Mines (Nationalisation) Amendment Rules, 2022](https://www.egazette.nic.in/WriteReadData/2022/161041.pdf)\n* [Coal Mines (Nationalisation) Rules, 1973](https://www.egazette.nic.in/WriteReadData/2022/161040.pdf)"
             ]
         }
     ]

@@ -61,20 +61,21 @@ def get_response(msg):
     
     # If no matching intent was found, use palm to generate a response
     return get_palm_response(msg)
-
 def save_conversation(user_message, bot_response):
     with open('intents.json', 'r+') as file:
         data = json.load(file)
-        existing_conversations = [intent for intent in data['intents'] if intent['tag'] == 'conversation']
+        existing_conversations = [intent for intent in data['intents'] if 'conversation' in intent['tag']]
         if not any(conv for conv in existing_conversations if conv['patterns'][0] == user_message and conv['responses'][0] == bot_response):
+            conversation_count = len(existing_conversations)
+            new_conversation_tag = f"conversation_{conversation_count + 1}"
             data['intents'].append({
-                "tag": "conversation",
+                "tag": new_conversation_tag,
                 "patterns": [user_message],
                 "responses": [bot_response]
             })
-        file.seek(0)
-        json.dump(data, file, indent=4)
-        file.truncate()
+            file.seek(0)
+            json.dump(data, file, indent=4)
+            file.truncate()
 
 if __name__ == "__main__":
     print("Let's chat! (type 'quit' to exit)")
