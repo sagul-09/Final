@@ -32,7 +32,7 @@ palm_models = [m for m in palm.list_models() if 'generateText' in m.supported_ge
 palm_model = palm_models[0].name
 
 def get_palm_response(prompt):
-    prompt += " in India"
+    prompt += " in the context of the Ministry of Coal India"
     completion = palm.generate_text(
         model=palm_model,
         prompt=prompt,
@@ -65,17 +65,22 @@ def save_conversation(user_message, bot_response):
     with open('intents.json', 'r+') as file:
         data = json.load(file)
         existing_conversations = [intent for intent in data['intents'] if 'conversation' in intent['tag']]
-        if not any(conv for conv in existing_conversations if conv['patterns'][0] == user_message and conv['responses'][0] == bot_response):
-            conversation_count = len(existing_conversations)
-            new_conversation_tag = f"conversation_{conversation_count + 1}"
-            data['intents'].append({
-                "tag": new_conversation_tag,
-                "patterns": [user_message],
-                "responses": [bot_response]
-            })
-            file.seek(0)
-            json.dump(data, file, indent=4)
-            file.truncate()
+
+        # Check if the conversation already exists
+        for conversation in existing_conversations:
+            if user_message in conversation['patterns']:
+                return
+
+        conversation_count = len(existing_conversations)
+        new_conversation_tag = f"conversation_{conversation_count + 1}"
+        data['intents'].append({
+            "tag": new_conversation_tag,
+            "patterns": [user_message],
+            "responses": [bot_response]
+        })
+        file.seek(0)
+        json.dump(data, file, indent=4)
+        file.truncate()
 
 if __name__ == "__main__":
     print("Let's chat! (type 'quit' to exit)")

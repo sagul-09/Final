@@ -370,6 +370,114 @@
             "responses": [
                 "The Ministry of Coal has issued new rules for the coal sector. The rules aim to improve the transparency and efficiency of the coal sector, and to ensure that coal is mined in a sustainable manner.\n\nSome of the key changes in the new rules include:\n\n* **Increased transparency in the coal auction process.** The new rules require that all coal auctions be conducted through a transparent and competitive process. This will help to ensure that the coal is sold at a fair price, and that it is sold to the highest bidder.\n* **Improved environmental safeguards.** The new rules include a number of measures to improve the environmental safeguards for coal mining. These measures include requirements for environmental impact assessments, and for the rehabilitation of mined areas.\n* **Strengthened enforcement of the rules.** The new rules provide for stronger enforcement of the rules. This includes increased penalties for violations of the rules, and the establishment of a new Coal Mine Safety Authority to oversee the implementation of the rules.\n\nThe new rules are a significant step forward for the coal sector in India. They will help to improve the transparency, efficiency, and sustainability of the coal sector, and will help to ensure that coal is mined in a safe and environmentally responsible manner.\n\nHere are the links to the new rules:\n\n* [Coal Mines (Nationalisation) Amendment Rules, 2022](https://www.egazette.nic.in/WriteReadData/2022/161041.pdf)\n* [Coal Mines (Nationalisation) Rules, 1973](https://www.egazette.nic.in/WriteReadData/2022/161040.pdf)"
             ]
+        },
+        {
+            "tag": "conversation_42",
+            "patterns": [
+                "who is the minster of coal"
+            ],
+            "responses": [
+                "Pralhad Joshi"
+            ]
+        },
+        {
+            "tag": "conversation_43",
+            "patterns": [
+                "which state produces more coal"
+            ],
+            "responses": [
+                "Jharkhand"
+            ]
+        },
+        {
+            "tag": "conversation_44",
+            "patterns": [
+                "list the states whihc produces coal"
+            ],
+            "responses": [
+                "* Chhattisgarh\n* Jharkhand\n* Madhya Pradesh\n* Odisha\n* West Bengal"
+            ]
+        },
+        {
+            "tag": "conversation_45",
+            "patterns": [
+                "how much coal is produced on average "
+            ],
+            "responses": [
+                "700 million tonnes"
+            ]
+        },
+        {
+            "tag": "conversation_46",
+            "patterns": [
+                "who is the minister of coal"
+            ],
+            "responses": [
+                "Pralhad Joshi"
+            ]
+        },
+        {
+            "tag": "conversation_47",
+            "patterns": [
+                "how to get coal mining license"
+            ],
+            "responses": [
+                "To get a coal mining license in India, you need to follow these steps:\n\n1. **Apply for a prospecting license.** This license allows you to explore for coal on a particular piece of land. You can apply for a prospecting license online through the Ministry of Coal website.\n2. **Submit a mining plan.** Once you have found coal on your land, you need to submit a mining plan to the Ministry of Coal. The mining plan must include details such as the location of the mine, the type of coal you will be mining, and the environmental impact of the mine.\n3. **Obtain a mining lease.** The Ministry of Coal will review your mining plan and, if it is approved, will issue you a mining lease. The mining lease gives you the right to mine coal on your land for a specified period of time.\n4. **Start mining.** Once you have a mining lease, you can start mining coal on your land. You must comply with all applicable laws and regulations, including the Mines and Minerals (Development and Regulation) Act, 1957.\n\n**Note:** The process of getting a coal mining license can take several months or even years. It is important to be patient and to follow all the necessary steps."
+            ]
+        },
+        {
+            "tag": "conversation_49",
+            "patterns": [
+                "whos is the minister"
+            ],
+            "responses": [
+                "Pralhad Joshi"
+            ]
+        },
+        {
+            "tag": "conversation_50",
+            "patterns": [
+                "how many states produces coal"
+            ],
+            "responses": [
+                "8"
+            ]
+        },
+        {
+            "tag": "conversation_51",
+            "patterns": [
+                "name the states which produces coal"
+            ],
+            "responses": [
+                "Chhattisgarh, Jharkhand, Madhya Pradesh, Odisha, West Bengal"
+            ]
+        },
+        {
+            "tag": "conversation_52",
+            "patterns": [
+                "which state produces more coal"
+            ],
+            "responses": [
+                "Chhattisgarh"
+            ]
+        },
+        {
+            "tag": "conversation_53",
+            "patterns": [
+                "who was the minister in 2015"
+            ],
+            "responses": [
+                "Piyush Goyal"
+            ]
+        },
+        {
+            "tag": "conversation_53",
+            "patterns": [
+                "who is the minister"
+            ],
+            "responses": [
+                "Pralhad Joshi"
+            ]
         }
     ]
 }
