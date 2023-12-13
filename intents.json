@@ -478,6 +478,24 @@
             "responses": [
                 "Pralhad Joshi"
             ]
+        },
+        {
+            "tag": "conversation_54",
+            "patterns": [
+                "how much coal is produced on average"
+            ],
+            "responses": [
+                "produces an average of 562.2 million tonnes of coal per year."
+            ]
+        },
+        {
+            "tag": "conversation_55",
+            "patterns": [
+                "the biggest coal mine in india"
+            ],
+            "responses": [
+                "'s Talcher coalfield is the largest coalfield in India, with estimated reserves of 44.6 billion tonnes. It is located in the Talcher district of Odisha. The coalfield is spread over an area of 1,800 square kilometres (690 sq mi) and is divided into three blocks: Talcher North, Talcher South and Talcher West. The Talcher North block is the largest, with reserves of 26.5 billion tonnes. The Talcher South block has reserves of 13.5 billion tonnes and the Talcher West block has reserves of 4.6 billion tonnes.\n\nThe Talcher coalfield is an important source of coal for India's power sector. The coalfield is served by a number of railway lines, including the Talcher-Bhadrak line, the Talcher-Cuttack line and the Talcher-Angul line. The coalfield is also served by a number of roads, including the National Highway 55 and the State Highway 15.\n\nThe Talcher coalfield is operated by Coal India Limited (CIL). CIL is a state-owned enterprise that is responsible for the production and sale of coal in India. CIL has a number of subsidiaries that are responsible for the mining and production of coal from the Talcher coalfield. These subsidiaries include Talcher Coalfields Limited (TCL), Talcher Area Coal Company Limited (TACC) and Talcher Central Coalfields Limited (TCCL).\n\nThe Talcher coalfield is a major contributor to the Indian economy. The coalfield provides employment for a large number of people and it also generates revenue for the government. The coalfield is also an important source of energy for India's power sector."
+            ]
         }
     ]
 }
